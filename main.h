@@ -15,12 +15,6 @@ class Piece{
     Piece(char);
 };
 
-int main(){
-  std::vector< std::vector <Piece> > V;
-  
-
-return 0;
-}
 
 Piece::Piece(char move){
   if (setState(move) == true)
