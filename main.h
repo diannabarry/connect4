@@ -1,14 +1,15 @@
 #include <iostream>
-#include <vectors>
-#include <strings>
+#include <string>
 
-CONST int WIN_NUM = 4;
-CONST int BOARD_SIZE = 7;
+using namespace std;
+
+int const WIN_NUM = 4;
+int const BOARD_SIZE = 7;
 
 class Piece{
-  Private:
+  private:
     char state;
-  Public:
+  public:
     bool checkState(char);
     bool setState(char);
     char getState() const {return state;}
